@@ -4,7 +4,9 @@ console.log(countTruthy(array));
 function countTruthy(array) {
   let truthy = 0;
   for (let item of array) {
-    if (item) ++truthy; 
+    if (item) {
+      ++truthy; 
+    }
   }
   return truthy;
 }
