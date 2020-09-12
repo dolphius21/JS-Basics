@@ -49,6 +49,6 @@ console.log(e);
 e.click();
 e.focus();
 
-const s = new HtmlSelectElement();
+const s = new HtmlSelectElement([1, 2, 3]);
 s.addItem(2);
 console.log(s);
